@@ -1,5 +1,5 @@
 const { MongoClient, ObjectId } = require('mongodb');
-const uri = "mongodb+srv://m001-student:m001-mongodb-basics@sandbox.te4xf.mongodb.net/Sandbox?retryWrites=true&w=majority";
+const uri = "put your mongodb uri here";
 const client = new MongoClient(uri);
 exports.connect = async () => {
 try {
